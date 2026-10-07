@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Keep the shared public navigation and disclaimer footer in `SiteShell` so every route presents consistent site chrome.
+- The foreclosure dashboard stays a self-contained static page at `public/foreclosure-watch.html`, embedded in `/foreclosures` via a full-width iframe. Never rewrite it as React or restyle it — it is generated externally and refreshed twice a day.
